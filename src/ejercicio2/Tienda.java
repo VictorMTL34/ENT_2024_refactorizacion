@@ -1,15 +1,15 @@
 package ejercicio2;
 
 public class Tienda {
-	private List<CalculadoraDePedidos> productos;
+	private List<Producto> productos;
 	private List<Cliente> clientes;
 	private List<Pedido> pedidos;
 
-	public void agregarProducto(CalculadoraDePedidos producto) {
+	public void agregarProducto(Producto producto) {
 		// Lógica para agregar un producto
 	}
 
-	public void eliminarProducto(CalculadoraDePedidos producto) {
+	public void eliminarProducto(Producto producto) {
 		// Lógica para eliminar un producto
 	}
 
@@ -21,7 +21,7 @@ public class Tienda {
 		// Lógica para eliminar un cliente
 	}
 
-	public void realizarPedido(Cliente cliente, List<CalculadoraDePedidos> productos) {
+	public void realizarPedido(Cliente cliente, List<Procuto> productos) {
 		// Lógica para realizar un pedido
 	}
 
