@@ -21,7 +21,7 @@ public class Tienda {
 		// Lógica para eliminar un cliente
 	}
 
-	public void realizarPedido(Cliente cliente, List<Procuto> productos) {
+	public void realizarPedido(Cliente cliente, List<Producto> productos) {
 		// Lógica para realizar un pedido
 	}
 
