@@ -5,6 +5,6 @@ public abstract class Impuesto {
 	
 	
 	
-	public abstract double calcularImpuesto(double ingresos, double impuesto);
+	public abstract double calcularImpuesto(double ingresos);
 
 }
