@@ -3,9 +3,7 @@ package ejercicio5;
 public class Cliente {
 	private String nombre;
 	private String apellido;
-	private String direccion;
-	private String ciudad;
-	private String codigoPostal;
+	private Direccion direccion;
 
 	// Getters y setters
 
@@ -17,30 +15,15 @@ public class Cliente {
 		this.apellido = apellido;
 	}
 
-	public void setDireccion(String direccion) {
-		this.direccion = direccion;
-	}
-
-	public void setCiudad(String ciudad) {
-		this.ciudad = ciudad;
-	}
-
-	public void setCodigoPostal(String codigoPostal) {
-		this.codigoPostal = codigoPostal;
-	}
-
-	public void ModificarDireccion(String ndir) {
-
-		setDireccion(ndir);
+	public void cambiarDireccion(String nCodPostal, String nDireccion, String nLocalidad) {
+		direccion.setDir(nDireccion);
+		direccion.setCodigoPostal(nCodPostal);
+		direccion.setLocalidad(nLocalidad);
 	}
 
 	public String getDireccion() {
 
-		return this.direccion;
+		return direccion.toString();
 	}
 
-	public String ConseguirDireccion() {
-
-		return getDireccion();
-	}
 }
